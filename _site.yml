@@ -1,0 +1,16 @@
+name: "dewittlab"
+title: "DeWitt Lab"
+description: |
+  DeWitt Lab
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output:
+  distill::distill_article:
+    css: style.css
+google_analytics: 'UA-110093032-1'
+creative_commons: CC BY
